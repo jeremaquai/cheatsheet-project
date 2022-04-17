@@ -1,0 +1,66 @@
+* {
+    background-color: black;
+}
+
+header h1 {
+    font-size: 60px;
+    color: white;
+    background-color: green;
+    margin: 10 auto;
+    text-align: center;
+    outline: 1rem solid green;
+}
+table {
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: gray;
+    color: white;
+}
+td {
+    background-color: black;
+    color: white;
+}
+
+
+table, tr, td {
+    border: 3px solid gray;
+    padding: 2px;
+    text-align: center;
+    z-index: 4;
+
+    
+}
+
+td.code {
+    font-family: monospace;
+    background-color: black;
+}
+
+h2 {
+    width: 85%;
+    height: auto;
+    background-color: green;
+    margin: 0 0;
+    font-size: 3rem;
+
+}
+
+h3 {
+    width: 50%;
+    background-color: green;
+    font-size: 2rem;
+
+}
+
+nav {
+    background-color: green;
+    font-size: 1.5rem;
+}
+
+thead {
+    background-color: gray;
+}
+
+.navigation{
+    background-color: green;
+}
