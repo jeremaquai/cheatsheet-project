@@ -4,15 +4,18 @@
 
 header h1 {
     font-size: 60px;
-    color: white;
+    color: black;
     background-color: green;
-    margin: 10 auto;
+    margin: auto auto;
     text-align: center;
     outline: 1rem solid green;
 }
+
+/* Table Styles */
+
 table {
     max-width: 85%;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: gray;
     color: white;
 }
@@ -36,21 +39,36 @@ td.code {
     background-color: black;
 }
 
-h2 {
-    width: 85%;
+
+/* Table Headers or table names */
+.table-header {
+    padding: 1% 1%;
+    display: flexbox;
+    background-color: green;
+    width: auto;
     height: auto;
-    background-color: green;
-    margin: 0 0;
-    font-size: 3rem;
-
+    justify-content: center;
 }
 
-h3 {
-    width: 50%;
-    background-color: green;
-    font-size: 2rem;
+.table-header h2 {
 
+background-color: green;
+color: black;
+font-size: 60px;
+justify-items: center;
+align-items: center;
+text-align: center;
 }
+
+.table-header h3 {
+    background-color: green;
+    color: black;
+    font-size: 40px;
+    justify-items: center;
+    text-align: center;
+}
+
+/* Navigation */
 
 nav {
     background-color: green;
